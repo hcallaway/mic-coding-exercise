@@ -28,7 +28,6 @@ window.addEventListener('resize', onResize);
 function updatePageDimensions() {
     pageWidth = window.innerWidth;
     pageHeight = window.innerHeight / 3;
-    return pageHeight, pageWidth
 }
 
 updatePageDimensions()
