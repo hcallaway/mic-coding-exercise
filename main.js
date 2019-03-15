@@ -28,7 +28,7 @@ window.addEventListener('resize', onResize);
 // Grab page dimensions
 function updatePageDimensions() {
     pageWidth = window.innerWidth;
-    pageHeight = window.innerHeight / 3;
+    pageHeight = window.innerHeight / 4;
 }
 
 // Manually call 1st time to have access to dimensions
