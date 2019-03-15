@@ -5,9 +5,15 @@ body {
     color: #069CC0;
     font-family: 'Overpass', sans-serif;
     margin: 0;
-    overflow: hidden;
+    overflow: auto;
     font-weight: bold;
 }
+
+p, footer {
+    text-align: center;
+    margin-top: 3em;
+}
+
 
 .settings {
     display: flex;
@@ -15,7 +21,7 @@ body {
     flex-direction: row;
     width: 100%;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 3em;
 }
 
 .setting {
